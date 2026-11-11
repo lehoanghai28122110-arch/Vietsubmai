@@ -12,15 +12,15 @@ services:
     envVars:
       # Mat khau may chu (nhieu mat khau thi ngan cach bang dau |)
       - key: VSMC_KEY
-        sync: false
+        sync: true
       # Email hien tren trang Lien he / Go noi dung
       - key: VSMC_CONTACT
-        sync: false
+        sync: true
       # Tuy chon: nghe video nhanh bang Groq, dich bang Claude
       - key: GROQ_API_KEY
-        sync: false
+        sync: true
       - key: ANTHROPIC_API_KEY
-        sync: false
+        sync: true
       # Gioi han file tai len (MB)
       - key: VSMC_MAX_UPLOAD_MB
         value: "1024"
